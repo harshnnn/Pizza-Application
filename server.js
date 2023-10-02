@@ -7,6 +7,10 @@ const expressLayout = require('express-ejs-layouts')
 
 const PORT = process.env.PORT || 3000  //process environment will check the prot ( imporant if we deploy our applicaiton)
 
+//Assets
+
+app.use(express.static('public'))
+
 app.get('/', (req,res) =>{
     res.render('home');
 })
