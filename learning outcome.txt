@@ -1,0 +1,6 @@
+---->dev dependencies are only for local server it wont 
+be included in production application ( after install command use -D for dev dependency)
+---->(example yarn add nodemon -D)
+
+----> all the dependencies inside package.jason are downloaded inside node_modules
+
