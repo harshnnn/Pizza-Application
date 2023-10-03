@@ -5,6 +5,10 @@ body{
     -webkit-font-smoothing: antialiased;
     color: $dark;
 }
+.hungry{
+    color: black;
+    font-weight: 700;
+}
 
 nav li:last-child a{
     background: $primary;
@@ -39,4 +43,35 @@ section.hero{
         
     }
 
+}
+
+.btn-primary{
+    background: $primary;
+    transition: $smooth;
+    &:hover{
+        background: $primary-hover;
+    }
+}
+
+section.cart{
+    background: $secondary;
+    .amount{
+        color: $primary;
+    }
+}
+
+section.login{
+    background: $secondary;
+    min-height: 88vh;
+    .login-box{
+        background: #fff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    a{
+        color: $primary;
+        transition: $smooth;
+        &:hover{
+            color: $primary-hover;
+        }
+    }
 }
